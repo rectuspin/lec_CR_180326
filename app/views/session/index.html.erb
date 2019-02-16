@@ -1,0 +1,22 @@
+<h1>목록들</h1>
+<a href="/session/new">사용자정보</a>
+
+<% @users.each do |user| %>
+<%=user.name%>
+<% end %>
+
+<% @users.each do |user| %>
+<%=user.email%>
+<% end %>
+
+<% @users.each do |user| %>
+<%=user.age%>
+<% end %>
+
+<% @users.each do |user| %>
+<%=user.gender%>
+<% end %>
+
+<% @users.each do |user| %>
+<%=user.phone_number%>
+<% end %>
